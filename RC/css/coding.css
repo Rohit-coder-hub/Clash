@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* NAVBAR  */
+li a {
+  font-size: 125% !important;
+  font-weight: 300;
+}
+
+/* FOOTER SECTION */
+footer {
+  background-color: #343a40;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .pisblogo {
+    display: none;
+  }
+  /* Uncomment this when you will add code in body
+  .fixed-bottom {
+    position: relative !important;
+  } */
+}
